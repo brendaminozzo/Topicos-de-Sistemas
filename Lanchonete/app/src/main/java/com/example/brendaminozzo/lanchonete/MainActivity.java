@@ -51,7 +51,7 @@ public class MainActivity extends Activity {
         lanches.add(criarLanche("X-Calabresa", "pão, maionese, hambúrguer, presunto, mussarela, calabresa, tomate, alface, milho e ervilha", 11.60, R.drawable.x_calabresa));
         lanches.add(criarLanche("X-Americano", "pão, maionese, hambúrguer, presunto, mussarela, calabresa, bacon, milho e ervilha", 13.00, R.drawable.x_americano));
         lanches.add(criarLanche("X-Tudo", "pão, maionese, hambúrguer, 2 salsichas, presunto, mussarela, bacon, ovo, frango, calabresa, tomate, catupiry, milho e ervilha", 23.00, R.drawable.x_tudo));
-        lanches.add(criarLanche("Cachorro-quente", "pão, maionese, salsinha, milho, ervilha, molho, batata palha, catchup", 5.00, R.drawable.cachorro_q));
+        lanches.add(criarLanche("Cachorro-quente", "pão, maionese, salsicha, milho, ervilha, molho, batata palha, catchup", 5.00, R.drawable.cachorro_q));
 
         return lanches;
     }

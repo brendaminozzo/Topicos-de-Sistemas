@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings!</string>
+    <string name="view_login">Login:</string>
+    <string name="view_usuario">User:</string>
+    <string name="view_senha">Password:</string>
+    <string name="bt_entrar">ENTER</string>
+    <string name="view_cadastrar">Not yet registered?</string>
+    <string name="bt_cadastro">REGISTER YOURSELF!</string>
+    <string name="view_email">E-mail box:</string>
+    <string name="tv_BoasVindas">Welcome,</string>
+    <string name="bt_sair">LOGOUT</string>
+    <string name="view_cad">REGISTER</string>
+    <string name="viewCad_nomeUsuario">User:</string>
+    <string name="viewCad_senha">Password:</string>
+    <string name="btCad_cadastrar">REGISTER</string>
+    <string name="btCad_cancelar">CANCEL</string>
+</resources>

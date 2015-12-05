@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Cadastro">
+
+    <TextView android:text="@string/view_cad" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:id="@+id/view_cad" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/viewCad_nomeUsuario"
+        android:id="@+id/viewCad_nomeUsuario"
+        android:layout_below="@+id/view_cad"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/textCad_usuario"
+        android:layout_alignBottom="@+id/viewCad_nomeUsuario"
+        android:layout_toRightOf="@+id/viewCad_nomeUsuario"
+        android:layout_toEndOf="@+id/viewCad_nomeUsuario"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/viewCad_senha"
+        android:id="@+id/viewCad_senha"
+        android:layout_below="@+id/viewCad_nomeUsuario"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/textCad_senha"
+        android:layout_alignBottom="@+id/viewCad_senha"
+        android:layout_alignLeft="@+id/textCad_usuario"
+        android:layout_alignStart="@+id/textCad_usuario" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btCad_cadastrar"
+        android:id="@+id/btCad_cadastrar"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/viewCad_senha"
+        android:layout_toEndOf="@+id/viewCad_senha" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btCad_cancelar"
+        android:id="@+id/btCad_cancelar"
+        android:layout_alignTop="@+id/btCad_cadastrar"
+        android:layout_toRightOf="@+id/view_cad"
+        android:layout_toEndOf="@+id/view_cad" />
+
+</RelativeLayout>
