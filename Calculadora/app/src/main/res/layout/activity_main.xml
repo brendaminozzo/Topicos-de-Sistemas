@@ -8,33 +8,50 @@
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
-            <TextView android:id="@+id/tv_visor" android:layout_width="match_parent" android:layout_height="67dp" android:gravity="right" android:textSize="50dp"></TextView>
+            <TextView android:id="@+id/tv_visor" android:layout_width="match_parent" android:layout_height="115dp" android:gravity="right" android:textSize="70dp" android:text="0"></TextView>
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_c" android:text="C" android:layout_width="match_parent" android:textSize="50sp"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_c" android:text="C" android:layout_width="match_parent" android:textSize="70sp"
+                    android:background="#e8d2ee"></Button>
             </LinearLayout>
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_7" android:text="7" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_8" android:text="8" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_9" android:text="9" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_adicao" android:text="+" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_7" android:text="7" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e7b2f4"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_8" android:text="8" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e7b2f4"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_9" android:text="9" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e7b2f4"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_adicao" android:text="+" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e8d2ee"></Button>
             </LinearLayout>
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_4" android:text="4" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_5" android:text="5" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_6" android:text="6" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_subtracao" android:text="-" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_4" android:text="4" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e7b2f4"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_5" android:text="5" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e7b2f4"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_6" android:text="6" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e7b2f4"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_subtracao" android:text="-" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e8d2ee"></Button>
             </LinearLayout>
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_1" android:text="1" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_2" android:text="2" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_3" android:text="3" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_multiplicacao" android:text="*" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_1" android:text="1" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e7b2f4"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_2" android:text="2" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e7b2f4"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_3" android:text="3" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e7b2f4"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_multiplicacao" android:text="*" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e8d2ee"></Button>
             </LinearLayout>
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_0" android:text="0" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_ponto" android:text="." android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_igual" android:text="=" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
-                <Button android:layout_height="wrap_content" android:id="@+id/bt_divisao" android:text="/" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_0" android:text="0" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e7b2f4"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_ponto" android:text="." android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e8d2ee"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_igual" android:text="=" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#f9eaf8"></Button>
+                <Button android:layout_height="wrap_content" android:id="@+id/bt_divisao" android:text="/" android:layout_weight="1" android:layout_width="match_parent" android:textSize="50sp"
+                    android:background="#e8d2ee"></Button>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
