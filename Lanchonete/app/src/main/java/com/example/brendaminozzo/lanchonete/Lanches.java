@@ -50,7 +50,7 @@ public class Lanches implements Serializable{
         this.imagem = imagem;
     }
     @Override
-    public String toString() {
+     public String toString() {
         return nome;
     }
 }
